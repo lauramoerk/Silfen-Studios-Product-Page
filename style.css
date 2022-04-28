@@ -1,0 +1,160 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+/* Blue Banner*/
+
+.bluebanner{
+    background-color: #85b4d7;
+    width: 100vw;
+height: 1.45rem;
+padding: 0.43;
+
+}
+
+.bluebanner ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+ justify-content: center;
+    padding-inline-start: 0;
+    align-self: center;
+}
+
+.bluebanner ul li{
+    display: flex;
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+.bluebanner ul li:nth-child(1){
+    margin-right: auto;
+
+}
+
+
+/* Nav lists*/
+.logo{
+    height: 1.5rem;
+}
+
+.navicon{
+    width: 20px;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+gap: 2rem;
+    padding-inline-start: 0;
+    padding: 0.5rem;
+justify-content: space-evenly;
+
+}
+
+nav .menulogo{
+    height: 1.5rem;
+    justify-content: center;
+    list-style: none;
+    margin-block-start: 0;
+}
+
+nav .menulink{
+    display: flex;
+    flex-wrap: wrap;
+gap: 2rem;
+    padding-inline-start: 0;
+    padding: 1rem;
+    list-style: none;
+    margin-right: auto;
+    
+}
+
+nav .menuicon{
+    display: flex;
+    flex-wrap: wrap;
+gap: 2rem;
+    padding-inline-start: 0;
+    padding: 1rem;
+    list-style: none;
+    margin-left: auto;
+
+}
+
+nav ul{
+margin-block-start: 0;
+margin-inline-end: 0;
+padding-inline-start: 0;
+}
+
+nav ul{
+align-self: center;
+    }
+
+/* ALL PRODUCTS H1*/
+
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+/*Display Grid*/
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.4rem;
+  }
+
+/*Template Styling*/
+.displaydiv {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+  
+
+  .bagimg{
+      width: 300px;
+  }
+  .productdiv {
+    padding: 1rem;
+  }
+  
+  .pricediv span,
+  .colourdiv span,
+  .stockdiv span {
+    padding-left: 0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: "Spectral", serif;
+  }
+  
+  .pricediv p,
+  .colourdiv p {
+    font-size: 16px;
+  }
+  
+  .colourdiv p,
+  .stockdiv p {
+    padding-top: 0.3rem;
+    margin-block-end: 0.4rem;
+  }
+
+  .colour li {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .colour ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
